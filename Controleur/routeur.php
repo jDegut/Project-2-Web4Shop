@@ -14,7 +14,7 @@ require_once 'Controleur/controleurMonCompte.php';
 require_once 'Controleur/controleurAdresse.php';
 require_once 'Controleur/controleurPaiement.php';
 require_once 'Controleur/controleurMaCommande.php';
-require_once 'Vue/vue.php';
+require_once 'Vue/Vue.php';
 
 class Routeur {
   private $ctrlAccueil;

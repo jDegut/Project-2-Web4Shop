@@ -25,7 +25,7 @@ abstract class Modele {
   
     private function getBDD(){
         if($this->bdd == null){
-            $this->bdd=new PDO('mysql:host=localhost;dbname=web4shop;charset=utf8','root','');
+            $this->bdd=new PDO('mysql:host=db5006919776.hosting-data.io;dbname=dbs5712877;charset=utf8','dbu2781451','Web4Shop2022');
             array(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         }
         
