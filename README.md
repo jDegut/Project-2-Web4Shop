@@ -129,3 +129,7 @@ http:/localhost/phpmyadmin => Importer la BD présente dans le dossier BD
 - factureGen : fichiers nécessaire à la génération des factures (polices et module FPDF)
 
 - Images/Scripts/Styles
+
+## Lien GitHub
+
+https://github.com/jDegut/Project-2-Web4Shop
