@@ -1,0 +1,67 @@
+/* CSS FILE - Additional styles */
+
+/* Fonts */
+
+@font-face {
+  font-family: "Orkney";
+  src: url("Orkney.ttf");
+}
+
+@font-face {
+  font-family: "Spirax";
+  src: url("Spirax.ttf");
+}
+
+/* Menu button (unique style) */
+
+.buttn {
+  color: rgb(230, 106, 106);
+  border: solid 2px rgb(230, 106, 106);
+  border-radius: 20px;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-family: "Orkney";
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.buttn-panier {
+  color: rgb(230, 106, 106);
+  border: solid 2px rgb(230, 106, 106);
+  border-radius: 40px;
+  text-decoration: none;
+  font-family: "Orkney";
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.buttn:hover, .buttn-panier:hover {
+  color : white;
+  border-color: white;
+  filter: brightness(3);
+}
+
+/* Item's boxe */
+
+.boxed {
+  height: 300px;
+  width: 300px;
+  transition: 0.3s;
+  z-index: 10;
+  border-radius: 12px;
+  box-shadow: 2px 2px 15px -2px rgba(0,0,0,0.1);
+}
+
+.boxed:hover {
+  box-shadow: 3px 3px 15px -2px rgba(0,0,0,0.5);
+}
+
+.img-prod {
+  height:200px;
+  width:200px;
+}
+
+/* Diverse style */
+.vert-sep {
+  box-shadow: 0 30px 40px rgba(0,0,0,.3);
+}
